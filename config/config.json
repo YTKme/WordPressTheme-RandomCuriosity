@@ -1,1 +1,19 @@
-{}
+{
+    "theme": {
+        "slug": "randomcuriosity",
+        "name": "Random Curiosity",
+        "author": "Yan Kuang"
+    },
+    "dev": {
+        "browserSync": {
+            "live": true,
+            "proxyURL": "wprig.test:8888",
+            "bypassPort": "8181",
+            "https": false
+        }
+    },
+    "debug": {
+        "styles": false,
+        "scripts": false
+    }
+}
