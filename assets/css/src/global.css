@@ -385,7 +385,7 @@ select {
 	display: block;
 	margin: 0 auto 2em;
 	padding: 0 1em;
-	max-width: var(--content-width);
+	max-width: var(--navigation-width);
 	font-family: var(--highlight-font-family);
 	font-stretch: condensed;
 }
@@ -453,7 +453,7 @@ select {
 	.main-navigation .menu {
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: center;
+		justify-content: end;
 	}
 }
 
